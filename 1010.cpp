@@ -17,7 +17,7 @@ int main()
 		tmp=tmp%100;
 	}
 	if(month<0)
-    cout<<month<<endl;
+    	cout<<month<<endl;
 	else
 	{
 		sum=sum*1.2+tmp;
