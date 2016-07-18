@@ -98,12 +98,12 @@ public class AplusB
 	<td>Python2</td>
 	<td>
     <pre><code>
-    while True:
-    try:
-        (x, y) = (int(x) for x in raw_input().split())
-        print x + y
-    except EOFError:
-        break</code></pre></td>
+	while True:
+    	try:
+        	(x, y) = (int(x) for x in raw_input().split())
+        	print x + y
+    	except EOFError:
+        	break</code></pre></td>
 </tr>
 </tbody>
 </table>
