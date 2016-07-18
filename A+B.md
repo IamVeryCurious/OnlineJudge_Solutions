@@ -29,8 +29,7 @@
 <tr>
 <td>C</td>
 <td>
-<pre><code>
-#include &lt;stdio.h&gt;
+<pre><code>#include &lt;stdio.h&gt;
 	
 int main(void) 
 {
@@ -45,8 +44,7 @@ int main(void)
 <tr>
 <td>C++</td>
 <td>
-<pre><code>
-#include &lt;iostream&gt;
+<pre><code>#include &lt;iostream&gt;
 	
 using namespace std;
 
@@ -62,8 +60,7 @@ int main(void)
 <tr>
 <td>Java</td>
 <td>
-<pre><code>
-import java.util.Scanner;
+<pre><code>import java.util.Scanner;
 	
 public class Main {
     public static void main(String[] args) {
@@ -78,8 +75,7 @@ public class Main {
 </code></pre></td></tr>
 <tr>
 <td>C#</td>
-<td><pre><code>
-using System;
+<td><pre><code>using System;
 
 public class AplusB
 {
@@ -97,8 +93,7 @@ public class AplusB
 <tr>
 	<td>Python2</td>
 	<td>
-    <pre><code>
-while True:
+<pre><code>while True:
     try:
         (x, y) = (int(x) for x in raw_input().split())
         print x + y
