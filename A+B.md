@@ -98,7 +98,7 @@ public class AplusB
         (x, y) = (int(x) for x in raw_input().split())
         print x + y
     except EOFError:
-        break</code></pre></td>
+        break</code></pre>
 <pre><code>import sys 
 for line in sys.stdin: 
     (x, y) = (int(x) for x in line.split())
